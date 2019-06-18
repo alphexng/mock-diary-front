@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Header from "../../components/Header/Header";
 import Entries from "../../components/Entries/Entries";
+import Footer from '../../components/Footer/Footer';
 
 class Home extends Component {
 	state = {
@@ -40,6 +41,7 @@ class Home extends Component {
 			<React.Fragment>
 				<Header />
 				<Entries entries={this.state.entries} />
+				<Footer />
 			</React.Fragment>
 		);
 	}
