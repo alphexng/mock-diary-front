@@ -1,0 +1,47 @@
+.Entries {
+	padding: 60px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.Entry {
+	width: 25%;
+	box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
+	margin: 10px;
+	padding: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.7s ease;
+}
+
+.Entry:hover,
+.Entry:active,
+.Entry:focus {
+    transform: scale(1.1);
+}   
+
+.Entry_Top {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.Entry_Top h3 {
+	font-family: var(--pacifico);
+	margin-left: auto;
+    font-size: 1rem;
+}
+
+.Tags {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.Tag {
+    background-color: #ccc;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 3px;
+    font-size: 0.8rem;
+}
