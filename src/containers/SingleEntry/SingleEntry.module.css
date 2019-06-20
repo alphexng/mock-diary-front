@@ -1,0 +1,19 @@
+.SingleEntry {
+	padding: 30px;
+}
+
+.EntryDate {
+	font-family: var(--pacifico);
+    font-size: 1.2rem;
+    text-align: right;
+}
+
+.Entry {
+	font-size: 2.5rem;
+}
+
+.RightBottom {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}

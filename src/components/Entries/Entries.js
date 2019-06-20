@@ -1,5 +1,5 @@
 import React from "react";
-import classes from './Entries.module.css';
+import classes from "./Entries.module.css";
 import Entry from "./Entry/Entry";
 
 const Entries = props => {
@@ -7,17 +7,14 @@ const Entries = props => {
 		return (
 			<Entry
 				key={entry.id}
+				id={entry.id}
 				date={entry.date}
 				text={entry.text}
 				tags={entry.tags}
 			/>
 		);
 	});
-	return (
-        <section className={classes.Entries}>
-            {entries}
-        </section>
-    );
+	return <section className={classes.Entries}>{entries}</section>;
 };
 
 export default Entries;
