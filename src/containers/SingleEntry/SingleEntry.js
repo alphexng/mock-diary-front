@@ -22,7 +22,6 @@ class SingleEntry extends Component {
 	};
 
 	updateEntryText = e => {
-		console.log("[Change]");
 		const entry = { ...this.state.entry };
 		entry.text = e.target.value;
 		this.setState({ entry });
